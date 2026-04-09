@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6ae0002f-3385-458e-a6b8-49eabda044bb/resourceGroups/rg_internship/providers/Microsoft.Web/sites/lmsbackend",
+    "appService.deploySubpath": "."
+}
