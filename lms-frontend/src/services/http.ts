@@ -1,8 +1,10 @@
 import axios from 'axios'
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL ??
-  'https://lmsbackend-gbcugef8cug0abh6.centralindia-01.azurewebsites.net'
+  import.meta.env.DEV
+    ? '/backend'
+    : (import.meta.env.VITE_API_BASE_URL ??
+      'https://lmsbackend-gbcugef8cug0abh6.centralindia-01.azurewebsites.net')
 
 export const TOKEN_KEY = 'lms_token'
 export const USER_KEY = 'lms_user'
